@@ -22,12 +22,12 @@ def timer() :
     tcx = datetime.now().time()
     return tcx
 
-# Changed this Address And Insert Your BTC Wallet
-
-address = 'bc1pnrqu9u84p36xf6ge2ah86f4fv44q7t74pz49cw5p59t6kqs9d3zs4fck2u' 
+#Bitcoin RPC Configuration
+RPC_USER = "3MeNF7kkmMotUWLVb2b5hkPbfRPzoNesjR"
+RPC_PASS = "x"
+RPC_URL = "solo.ckpool.org:3333"
 
 print(Back.BLUE , Fore.WHITE , 'BTC WALLET:' , Fore.BLACK , str(address) , Style.RESET_ALL)
-
 
 def handler(signal_received , frame) :
     # Handle any cleanup here
